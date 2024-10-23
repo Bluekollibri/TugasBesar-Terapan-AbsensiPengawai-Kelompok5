@@ -1,0 +1,58 @@
+<head>
+    <link rel="stylesheet" href="DataKaryawan-css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+
+
+<div id="responsive-admin-menu">
+    <nav class="first">
+        <h3 class="fheading">Selamat Datang Admin</h3>
+        <ul class="flist">
+            <li><a href="Dashboard-admin.html">Home</a></li>
+            <li>Master Data</li>
+            <li style="color: red;">Data Karyawan</li>
+            <li>Data Absen</li>
+            <li>Profile</li>
+          <li><a href="Login.html">Keluar</a></li>
+          
+        </ul>
+      </nav> 
+	
+	
+	
+	
+<br><br>
+<div class="table-container">
+    <div class="table-header">
+        <div class="search-wrapper">
+            <input type="text" id="search-input" placeholder="Search...">
+            <i class="fas fa-search"></i>
+            <input type="button" value="abcc">
+        </div>
+        
+        <div class="view-options">
+            
+            <label for="rows-select">Show rows:</label>
+            <select id="rows-select">
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="50">50</option>
+            </select>
+        </div>
+    </div>
+    <table id="employee-table">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th data-column="id" data-order="desc">NIK <i class="fas fa-sort"></i></th>
+                <th data-column="fullName" data-order="desc">Nama Karyawan <i class="fas fa-sort"></i></th>
+                <th data-column="sex" data-order="desc">Unit<i class="fas fa-sort"></i></th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            <!-- Employee data will be inserted here -->
+        </tbody>
+    </table>
+</div>
