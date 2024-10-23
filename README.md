@@ -4,6 +4,6 @@ Backlog
 
 Team Figma = Morel, Raafi
 
-UML = Bryan, Morel
+UML & Database Model = Bryan, Morel
 
 Website = Nur Bagus, Raafi
