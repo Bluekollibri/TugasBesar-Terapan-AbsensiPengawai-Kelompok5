@@ -74,11 +74,11 @@ error_reporting(0);
                             </ul>
                         </li>
                         <li>
-                            <a href="datakaryawan.php">
+                            <a href="">
                                 <i class="fas fa-chart-bar"></i>Data Karyawan</a>
                         </li>
                         <li>
-                            <a href="datauser.php">
+                            <a href="">
                                 <i class="fas fa-table"></i>Data user</a>
                         </li>
                         <li>
@@ -86,11 +86,11 @@ error_reporting(0);
                                 <i class="far fa-check-square"></i>Data Jabatan</a>
                         </li>
                         <li>
-                            <a href="data_absen.php">
+                            <a href="">
                                 <i class="fas fa-calendar-alt"></i>Data Absen</a>
                         </li>
                        <li>
-                            <a href="data_keterangan.php">
+                            <a href="">
                                 <i class="fas fa-table"></i>data Keterangan
                             </a>
                         </li>
@@ -115,11 +115,11 @@ error_reporting(0);
                           
                         </li>
                         <li>
-                            <a href="datakaryawan.php">
+                            <a href="">
                                 <i class="fas fa-chart-bar"></i>Data Karyawan</a>
                         </li>
                         <li>
-                            <a href="datauser.php">
+                            <a href="">
                                 <i class="fas fa-table"></i>Data User</a>
                         </li>
                         <li class="active has-sub">
@@ -127,16 +127,16 @@ error_reporting(0);
                                 <i class="far fa-check-square"></i>Data Jabatan</a>
                         </li>
                         <li>
-                            <a href="data_absen.php">
+                            <a href="">
                                 <i class="fas fa-calendar-alt"></i>Data Absen</a>
                         </li>
                         <li>
-                            <a href="data_keterangan.php">
+                            <a href="">
                                 <i class="fas fa-table"></i>data Keterangan
                             </a>
                         </li>
                         <li>
-                            <a href="logout.php">Logout</a>
+                            <a href="">Logout</a>
                         </li>
                     </ul>
                 </nav>
