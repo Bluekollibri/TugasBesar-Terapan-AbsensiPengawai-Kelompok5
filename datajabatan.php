@@ -1,6 +1,4 @@
 <?php 
-require_once("koneksi.php");
-error_reporting(0);
  ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,12 +36,7 @@ error_reporting(0);
 
 <body class="animsition">
       <?php 
-    session_start();
-    if (!isset($_SESSION['username'])) {
-        header("location: index.php");
-    }else {
-        $username = $_SESSION['username'];  
-    }
+  
 
  ?>
     <div class="page-wrapper">
